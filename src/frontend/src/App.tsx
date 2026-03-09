@@ -4,7 +4,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 import { Branch, Program } from "./backend.d";
 import { useActor } from "./hooks/useActor";
-
+import heroImg from './public/assets/generated/hero-kids.dim_800x600.png';
+import mascotImg from './public/assets/generated/kid-mascot-transparent.dim_400x500.png';
 // ─── Decorative shapes ───────────────────────────────────────────────────────
 
 const ConfettiDots = () => {
@@ -483,7 +484,7 @@ const HeroSection = () => {
               className="animate-float relative z-10"
               style={{ animationDuration: "5s" }}
             >
-              <img src="public/assets/generated/hero-kids.dim_800x600.png"
+              <img src="{heroImg}"
                 alt="Happy children learning and playing at Oxford World Preschool"
                 className="rounded-3xl shadow-kid-lg"
                 style={{
@@ -497,7 +498,7 @@ const HeroSection = () => {
 
             {/* Mascot */}
             <img
-              src="public/assets/generated/kid-mascot-transparent.dim_400x500.png"
+              src="{mascotImg}"
               alt="Friendly school mascot"
               className="animate-sway"
               style={{
