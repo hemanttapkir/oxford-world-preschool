@@ -483,8 +483,7 @@ const HeroSection = () => {
               className="animate-float relative z-10"
               style={{ animationDuration: "5s" }}
             >
-              <img
-                src="./public/assets/generated/hero-kids.dim_800x600.png"
+              <img src="public/assets/generated/hero-kids.dim_800x600.png"
                 alt="Happy children learning and playing at Oxford World Preschool"
                 className="rounded-3xl shadow-kid-lg"
                 style={{
@@ -498,7 +497,7 @@ const HeroSection = () => {
 
             {/* Mascot */}
             <img
-              src="./public/assets/generated/kid-mascot-transparent.dim_400x500.png"
+              src="public/assets/generated/kid-mascot-transparent.dim_400x500.png"
               alt="Friendly school mascot"
               className="animate-sway"
               style={{
@@ -821,7 +820,7 @@ const ProgramsSection = () => {
               style={{ animationDuration: "6s", animationDelay: "0.3s" }}
             >
               <img
-                src="./public/assets/generated/kids-learning.dim_700x450.png"
+                src="public/assets/generated/kids-learning.dim_700x450.png"
                 alt="Children learning together in a creative classroom"
                 className="rounded-3xl shadow-kid-lg w-full"
                 style={{
