@@ -4,8 +4,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 import { Branch, Program } from "./backend.d";
 import { useActor } from "./hooks/useActor";
-import heroImg from './public/assets/generated/hero-kids.dim_800x600.png';
-import mascotImg from './public/assets/generated/kid-mascot-transparent.dim_400x500.png';
+import heroImg from "./public/assets/generated/hero-kids.dim_800x600.png";
+import mascotImg from "./public/assets/generated/kid-mascot-transparent.dim_400x500.png";
 // ─── Decorative shapes ───────────────────────────────────────────────────────
 
 const ConfettiDots = () => {
