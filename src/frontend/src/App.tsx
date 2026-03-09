@@ -821,7 +821,7 @@ const ProgramsSection = () => {
               style={{ animationDuration: "6s", animationDelay: "0.3s" }}
             >
               <img
-                src="/assets/generated/kids-learning.dim_700x450.png"
+                src="frontend/public/assets/generated/kids-learning.dim_700x450.png"
                 alt="Children learning together in a creative classroom"
                 className="rounded-3xl shadow-kid-lg w-full"
                 style={{
